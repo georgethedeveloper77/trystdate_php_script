@@ -13,24 +13,6 @@
     <?php require( $theme_path . 'main' . $_DS . 'ajax.php' );?>
     <?php if ($config->recaptcha == 'on' && !empty($config->recaptcha_secret_key) && !empty($config->recaptcha_site_key)) { ?>
     <script type="text/javascript" src='https://www.google.com/recaptcha/api.js'></script>
-	<!-- Google tag (gtag.js) TrystDate-->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-KG7YETXFW4"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-		gtag('config', 'G-KG7YETXFW4');
-	</script>
-	<!-- Google tag (gtag.js) Tryst-->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-00V3Y68HY9"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-		gtag('config', 'G-00V3Y68HY9');
-	</script>
-	
-	<meta property="fb:app_id" content="718085129881517" />
     <?php } ?>
 </head>
 <body class="<?php echo $data['name'];?>-page">

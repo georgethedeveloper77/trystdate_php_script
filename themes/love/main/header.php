@@ -14,28 +14,6 @@
     <script src="https://cdn.jsdelivr.net/gh/tigrr/circle-progress@v0.2.4/dist/circle-progress.min.js"></script>
     <?php if ($config->recaptcha == 'on' && !empty($config->recaptcha_secret_key) && !empty($config->recaptcha_site_key)) { ?>
     <script type="text/javascript" src='https://www.google.com/recaptcha/api.js'></script>
-	<meta property="fb:app_id" content="718085129881517" />
-	<meta property="og:image" content="https://trystdate.me/upload/photos/logo-200_x_200.png" />
-	<!-- Additional Open Graph tag for image alt text -->
-    <meta property="og:image:alt" content="A descriptive alt text for your image" />
-	
-	<!-- Google tag (gtag.js) TrystDate-->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-KG7YETXFW4"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-		gtag('config', 'G-KG7YETXFW4');
-	</script>
-	<!-- Google tag (gtag.js) Tryst-->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-00V3Y68HY9"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-		gtag('config', 'G-00V3Y68HY9');
-	</script>
-	
     <?php } ?>
 </head>
 <body class="<?php echo $data['name'];?>-page <?php echo(!empty($_COOKIE['open_slide']) && $_COOKIE['open_slide'] == 'yes') ? 'side_open' : '' ?> <?php if( isset( $_SESSION['JWT'] ) ){ ?><?php } else { ?>no-padd<?php } ?>">
