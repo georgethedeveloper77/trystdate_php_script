@@ -108,7 +108,7 @@
 				$___cost = 0;
 			}
 		?>
-		<p><?php echo __("Promote your profile by get more visits") . ', '. __("this service will cost you") . ' ' . ' <span style="color:#a33596;font-weight: bold;">' . $___cost . '</span> ' . __( 'Credits') . ' ' . __('For') . ' ' . ' <span style="color:#a33596;font-weight: bold;">' . (int)$config->xvisits_expire_time . '</span> '. ' ' . __('Minutes');?></p>
+		<p><?php echo __("Promote your profile by get more visits") . ', '. __("this service will cost you") . ' ' . ' <span style="color:#FF007F;font-weight: bold;">' . $___cost . '</span> ' . __( 'Credits') . ' ' . __('For') . ' ' . ' <span style="color:#FF007F;font-weight: bold;">' . (int)$config->xvisits_expire_time . '</span> '. ' ' . __('Minutes');?></p>
 	</div>
 	<div class="modal-footer">
 		<button type="button" class="btn-flat modal-close"><?php echo __( 'Cancel' );?></button>
@@ -134,7 +134,7 @@
 				$__cost = 0;
 			}
 		?>
-		<p><?php echo __("Shown more and rise up at the same time") . ', '. __("this service will cost you") . ' ' . ' <span style="color:#a33596;font-weight: bold;">' . (int)$__cost . '</span> ' . __( 'Credits') . ' ' . __('For') . ' ' . ' <span style="color:#a33596;font-weight: bold;">' . (int)$config->boost_expire_time . '</span> '. ' ' . __('Minutes');?></p>
+		<p><?php echo __("Shown more and rise up at the same time") . ', '. __("this service will cost you") . ' ' . ' <span style="color:#FF007F;font-weight: bold;">' . (int)$__cost . '</span> ' . __( 'Credits') . ' ' . __('For') . ' ' . ' <span style="color:#FF007F;font-weight: bold;">' . (int)$config->boost_expire_time . '</span> '. ' ' . __('Minutes');?></p>
 	</div>
 	<div class="modal-footer">
 		<button type="button" class="btn-flat waves-effect modal-close"><?php echo __( 'Cancel' );?></button>
@@ -155,7 +155,7 @@
 				$___cost__ = 0;
 			}
 		?>
-		<p><?php echo __("Tell everyone you're online and be seen by users who want to chat") . ', '. __("this service will cost you") . ' ' . ' <span style="color:#a33596;font-weight: bold;">' . $___cost__ . '</span> ' . __( 'Credits') . ' ' . __('For') . ' ' . ' <span style="color:#a33596;font-weight: bold;">' . (int)$config->xlike_expire_time . '</span> '. ' ' . __('Minutes');?></p>
+		<p><?php echo __("Tell everyone you're online and be seen by users who want to chat") . ', '. __("this service will cost you") . ' ' . ' <span style="color:#FF007F;font-weight: bold;">' . $___cost__ . '</span> ' . __( 'Credits') . ' ' . __('For') . ' ' . ' <span style="color:#FF007F;font-weight: bold;">' . (int)$config->xlike_expire_time . '</span> '. ' ' . __('Minutes');?></p>
 	</div>
 	<div class="modal-footer">
 		<button type="button" class="btn-flat modal-close"><?php echo __( 'Cancel' );?></button>

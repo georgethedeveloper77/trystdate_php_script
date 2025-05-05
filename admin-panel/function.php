@@ -25,7 +25,7 @@ $wo['user']['url'] = $config->uri . '/@' . auth()->username;
 $wo['user']['name'] = auth()->username;
 $wo['user']['email'] = auth()->email;
 
-$wo['config']['btn_background_color']  = '#a33596';
+$wo['config']['btn_background_color']  = '#FF007F';
 $wo['config']['header_background']  = '#1e2321';
 $current_user_id = auth()->id;
 $is_admin = false;

@@ -90,7 +90,7 @@ svg {
 
 .bg_gradient {
     background: #FF007F;
-    background: linear-gradient(90deg, #FF007F 0%, #c539b6 35%, #a33596 100%);
+    background: linear-gradient(90deg, #FF007F 0%, #c539b6 35%, #FF007F 100%);
 }
 
 .bg_white {
@@ -139,8 +139,8 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
 }
 
 input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]), input.valid:not([type]), input.valid:not([type]):focus, input.valid[type=text]:not(.browser-default), input.valid[type=text]:not(.browser-default):focus, input.valid[type=password]:not(.browser-default), input.valid[type=password]:not(.browser-default):focus, input.valid[type=email]:not(.browser-default), input.valid[type=email]:not(.browser-default):focus, input.valid[type=url]:not(.browser-default), input.valid[type=url]:not(.browser-default):focus, input.valid[type=time]:not(.browser-default), input.valid[type=time]:not(.browser-default):focus, input.valid[type=date]:not(.browser-default), input.valid[type=date]:not(.browser-default):focus, input.valid[type=datetime]:not(.browser-default), input.valid[type=datetime]:not(.browser-default):focus, input.valid[type=datetime-local]:not(.browser-default), input.valid[type=datetime-local]:not(.browser-default):focus, input.valid[type=tel]:not(.browser-default), input.valid[type=tel]:not(.browser-default):focus, input.valid[type=number]:not(.browser-default), input.valid[type=number]:not(.browser-default):focus, input.valid[type=search]:not(.browser-default), input.valid[type=search]:not(.browser-default):focus, textarea.materialize-textarea.valid, textarea.materialize-textarea.valid:focus, .select-wrapper.valid>input.select-dropdown {
-    -webkit-box-shadow: 0 0 0 1.5px #a33596;
-    box-shadow: 0 0 0 1.5px #a33596;
+    -webkit-box-shadow: 0 0 0 1.5px #FF007F;
+    box-shadow: 0 0 0 1.5px #FF007F;
 }
 
 input.invalid:not([type]), input.invalid:not([type]):focus, input.invalid[type=text]:not(.browser-default), input.invalid[type=text]:not(.browser-default):focus, input.invalid[type=password]:not(.browser-default), input.invalid[type=password]:not(.browser-default):focus, input.invalid[type=email]:not(.browser-default), input.invalid[type=email]:not(.browser-default):focus, input.invalid[type=url]:not(.browser-default), input.invalid[type=url]:not(.browser-default):focus, input.invalid[type=time]:not(.browser-default), input.invalid[type=time]:not(.browser-default):focus, input.invalid[type=date]:not(.browser-default), input.invalid[type=date]:not(.browser-default):focus, input.invalid[type=datetime]:not(.browser-default), input.invalid[type=datetime]:not(.browser-default):focus, input.invalid[type=datetime-local]:not(.browser-default), input.invalid[type=datetime-local]:not(.browser-default):focus, input.invalid[type=tel]:not(.browser-default), input.invalid[type=tel]:not(.browser-default):focus, input.invalid[type=number]:not(.browser-default), input.invalid[type=number]:not(.browser-default):focus, input.invalid[type=search]:not(.browser-default), input.invalid[type=search]:not(.browser-default):focus, textarea.materialize-textarea.invalid, textarea.materialize-textarea.invalid:focus, .select-wrapper.invalid>input.select-dropdown, .select-wrapper.invalid>input.select-dropdown:focus {
@@ -149,7 +149,7 @@ input.invalid:not([type]), input.invalid:not([type]):focus, input.invalid[type=t
 }
 
 input:not([type]):focus:not([readonly])+label, input[type=text]:not(.browser-default):focus:not([readonly])+label, input[type=password]:not(.browser-default):focus:not([readonly])+label, input[type=email]:not(.browser-default):focus:not([readonly])+label, input[type=url]:not(.browser-default):focus:not([readonly])+label, input[type=time]:not(.browser-default):focus:not([readonly])+label, input[type=date]:not(.browser-default):focus:not([readonly])+label, input[type=datetime]:not(.browser-default):focus:not([readonly])+label, input[type=datetime-local]:not(.browser-default):focus:not([readonly])+label, input[type=tel]:not(.browser-default):focus:not([readonly])+label, input[type=number]:not(.browser-default):focus:not([readonly])+label, input[type=search]:not(.browser-default):focus:not([readonly])+label, textarea.materialize-textarea:focus:not([readonly])+label {
-    color: #a33596;
+    color: #FF007F;
 }
 
 .input-field>label {
@@ -460,8 +460,8 @@ nav .header_logo {
 }
 
 a.prem:hover {
-    box-shadow: inset 0 -1.5px #a33596;
-    color: #a33596;
+    box-shadow: inset 0 -1.5px #FF007F;
+    color: #FF007F;
 }
 
 nav .header_home_link li a {
@@ -941,7 +941,7 @@ nav .not_usr_nav .btn-flat {
 }
 
 .boost-me:hover, .boost-me:focus {
-    background-color: #a33596;
+    background-color: #FF007F;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.28);
 }
 
@@ -951,7 +951,7 @@ nav .not_usr_nav .btn-flat {
 }
 
 .boosted_message_expire span {
-    color: #a33596;
+    color: #FF007F;
     font-weight: 500;
     margin-right: -10px;
     border: 1px solid #ddd;
@@ -963,7 +963,7 @@ nav .not_usr_nav .btn-flat {
 
 .boost-running {
     background: #fff !important;
-    color: #a33596;
+    color: #FF007F;
     box-shadow: none !important;
     height: 32px;
     width: 32px;
@@ -2104,7 +2104,7 @@ nav .not_usr_nav .btn-flat {
     display: block;
     margin: auto;
     height: 6px;
-    background: #a33596;
+    background: #FF007F;
     border-radius: 2em;
 }
 
@@ -2839,8 +2839,8 @@ nav .not_usr_nav .btn-flat {
 .dt_login form.register .terms_check [type="checkbox"].filled-in:checked+span:not(.lever):after {
     width: 16px;
     height: 16px;
-    border: 2px solid #a33596;
-    background-color: #a33596;
+    border: 2px solid #FF007F;
+    background-color: #FF007F;
 }
 
 .dt_login form>hr {
@@ -3253,7 +3253,7 @@ body .dt_signup_steps h5.empty_state {
 }
 
 .slider_container.center .line .dot.center {
-    background: #a33596;
+    background: #FF007F;
     width: 20px;
     height: 20px;
     border: 0;
@@ -3281,7 +3281,7 @@ body .dt_signup_steps h5.empty_state {
 }
 
 .slider_container.full .line .dot.full {
-    background: #a33596;
+    background: #FF007F;
     width: 20px;
     height: 20px;
     border: 0;
@@ -5136,8 +5136,8 @@ input[type=range]::-moz-range-thumb {
 }
 
 .dt_home_filters .collapsible .search_filters form p.range-field input[type=range]::-webkit-slider-thumb {
-    background: #a33596;
-    background-color: #a33596;
+    background: #FF007F;
+    background-color: #FF007F;
     height: 12px;
     width: 12px;
 }
@@ -5148,8 +5148,8 @@ input[type=range]::-moz-range-thumb {
 }
 
 .dt_home_filters .collapsible .search_filters form p.range-field input[type=range]::-moz-range-thumb {
-    background: #a33596;
-    background-color: #a33596;
+    background: #FF007F;
+    background-color: #FF007F;
     height: 12px;
     width: 12px;
 }
@@ -5928,7 +5928,7 @@ input[type=range]::-moz-range-thumb {
 }
 
 .dt_msg_box .msg_container .m_search .dt_srch_msg_progress .progress .indeterminate {
-    background-color: #a33596;
+    background-color: #FF007F;
 }
 
 .dt_msg_box .msg_container .m_search .search_input {
@@ -6630,7 +6630,7 @@ body .dt_msg_box.open_list .msg_container .chat_filter input[type=checkbox]:chec
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #a33596;
+    background: #FF007F;
     border-radius: 0 50% 50% 0;
     border: 0;
 }
@@ -6692,7 +6692,7 @@ body .dt_msg_box.open_list .msg_container .chat_filter input[type=checkbox]:chec
 }
 
 #stiker_box .stiker_imgprogress .progress .determinate, .dt_msg_box .modal-content .chat_message_upload_media_imgprogress .progress .determinate {
-    background-color: #a33596;
+    background-color: #FF007F;
 }
 
 #stikerlist img {
@@ -8095,14 +8095,14 @@ body .dt_msg_box.open_list .msg_container .chat_filter input[type=checkbox]:chec
 }
 
 .dt_settings form .chips.focus {
-    box-shadow: 0 0 0 1.5px #a33596;
+    box-shadow: 0 0 0 1.5px #FF007F;
 }
 
 .dt_settings form .chips .chip {
     color: #ffffff;
     height: 26px;
     line-height: 23px;
-    background-color: #a33596;
+    background-color: #FF007F;
     margin: 3px 4px;
 }
 
@@ -8851,11 +8851,11 @@ img.gift {
 
 /*Datepicker*/
 .datepicker-date-display, .datepicker-table td.is-selected {
-    background-color: #a33596;
+    background-color: #FF007F;
 }
 
 .datepicker-table td.is-today, .datepicker-footer .confirmation-btns .btn-flat {
-    color: #a33596;
+    color: #FF007F;
 }
 
 /*Video call*/
@@ -11620,7 +11620,7 @@ code pre {
 
 .dt_faq .accordion-item.is-active>.btn {
     transform: rotate(45deg);
-    background-color: #a33596;
+    background-color: #FF007F;
     color: #fff;
     border-radius: 20px;
 }

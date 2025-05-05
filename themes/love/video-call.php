@@ -17,7 +17,7 @@ footer.page_footer {display: none}
     </div>
   <?php }else{ ?>
 	<div id="remote-media">
-		<div class="lds-facebook"><div style="background: #a33596;"></div><div style="background: #a33596;"></div><div style="background: #a33596;"></div></div>
+		<div class="lds-facebook"><div style="background: #FF007F;"></div><div style="background: #FF007F;"></div><div style="background: #FF007F;"></div></div>
 		<h3><?php echo __('Please wait..');?></h3>
 	</div>
 	<div id="controls">

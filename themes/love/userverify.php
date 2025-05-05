@@ -10,7 +10,7 @@
         </div>
     <?php } ?>
     <div class="login">
-        <a class="btn waves-effect waves-light logout" onclick="logout()" style="display: block;width: 120px;font-weight: bold;background-color: #a33596;"><span style="color:#ffffff;"><?php echo __( 'Log Out' );?></span></a>
+        <a class="btn waves-effect waves-light logout" onclick="logout()" style="display: block;width: 120px;font-weight: bold;background-color: #FF007F;"><span style="color:#ffffff;"><?php echo __( 'Log Out' );?></span></a>
     </div>
     <br>
 </div>

@@ -766,7 +766,7 @@ if( route(2) == 'opengift' && is_numeric(route(3)) ) {
                 $plusday = ( $lastchat + ( 60 * 60 * 24 ) ) - time();
             }
 		?>
-		<p><?php echo __("You have reached your daily limit") . ', '. __("you can chat to new people after") . ' ' . '<span id="chat_time" data-chat-time="'.$plusday.'" style="color:#a33596;font-weight: bold;"></span>' .', '. __("can't wait? this service costs you") . ' <span style="color:#a33596;font-weight: bold;">' . (int)$config->not_pro_chat_credit . '</span> ' . __( 'Credits') . '.';?></p>
+		<p><?php echo __("You have reached your daily limit") . ', '. __("you can chat to new people after") . ' ' . '<span id="chat_time" data-chat-time="'.$plusday.'" style="color:#FF007F;font-weight: bold;"></span>' .', '. __("can't wait? this service costs you") . ' <span style="color:#FF007F;font-weight: bold;">' . (int)$config->not_pro_chat_credit . '</span> ' . __( 'Credits') . '.';?></p>
 	</div>
 	<div class="modal-footer">
 		<button type="button" class="btn-flat waves-effect modal-close"><?php echo __( 'Cancel' );?></button>
