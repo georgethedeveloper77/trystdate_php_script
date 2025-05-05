@@ -1,0 +1,27 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.mindberzerk.trystdate",
+      "sha256_cert_fingerprints": [
+        "0D:9C:96:91:E9:C4:16:F3:7E:5A:68:D7:1A:A7:1F:D9:C5:7F:C6:8A:74:EA:F2:BD:AF:5F:3D:EB:AD:D2:E9:9D"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.mindhunter.tryst",
+      "sha256_cert_fingerprints": [
+        "B8:7A:3F:EF:2F:8F:62:BC:D7:57:57:40:E3:B4:2F:61:EB:C7:03:F6:48:23:DC:2F:92:FF:FC:DE:66:13:AE:8B"
+      ]
+    }
+  }
+]
