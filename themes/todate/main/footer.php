@@ -498,7 +498,7 @@
                         "text": "#666"
                     },
                     "button": {
-                        "background": "#c649b8"
+                        "background": "#FF007F"
                     }
                 },
                 "theme": "edgeless",

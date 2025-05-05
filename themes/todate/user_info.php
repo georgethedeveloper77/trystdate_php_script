@@ -11,7 +11,7 @@ a {
 	text-decoration: none;
 }
 body {
-	background: #c649b8;margin: 0;
+	background: #FF007F;margin: 0;
 	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 header {
